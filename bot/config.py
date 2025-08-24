@@ -1,19 +1,19 @@
 from os import environ as env
 
 class Telegram:
-    API_ID = int(env.get("TELEGRAM_API_ID", 14982593))
-    API_HASH = env.get("TELEGRAM_API_HASH", "86ce0656fecb2690a633dd60808e74d6")
-    OWNER_ID = int(env.get("OWNER_ID", 5543917190))
+    API_ID = int(env.get("TELEGRAM_API_ID", 27973819))
+    API_HASH = env.get("TELEGRAM_API_HASH", "ee0d05dfb55781457f956c9c7f9330b2")
+    OWNER_ID = int(env.get("OWNER_ID", 5934347741))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
-    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "@AmRobots_File_Stream_Bot")
-    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "7229199824:AAHV1xN5CRx5VQu2yohcCnCDHYF37Kc1374")
-    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1001744824600))
+    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "@YXZStream_bot")
+    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "8208545573:AAGGX9T6k0KCnPXBYyz6XX1TL9xJ0iKj9pg")
+    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1002583491535))
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
-    BASE_URL = env.get("BASE_URL", "https://ssl.apnatube.in")
+    BASE_URL = env.get("BASE_URL", "https://yxzentmt.blogspot.com")
     BIND_ADDRESS = env.get("BIND_ADDRESS", "0.0.0.0")
-    PORT = int(env.get("PORT", 9006))
+    PORT = int(env.get("PORT", 443))
 
 # LOGGING CONFIGURATION
 LOGGER_CONFIG_JSON = {
@@ -50,3 +50,4 @@ LOGGER_CONFIG_JSON = {
         }
     }
 }
+
